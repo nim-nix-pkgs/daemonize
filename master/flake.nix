@@ -11,6 +11,7 @@
   inputs.src-daemonize-master.ref   = "refs/heads/master";
   inputs.src-daemonize-master.owner = "OpenSystemsLab";
   inputs.src-daemonize-master.repo  = "daemonize.nim";
+  inputs.src-daemonize-master.dir   = "";
   inputs.src-daemonize-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
