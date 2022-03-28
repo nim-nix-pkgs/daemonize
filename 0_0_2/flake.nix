@@ -11,7 +11,6 @@
   inputs.src-daemonize-0_0_2.ref   = "refs/tags/0.0.2";
   inputs.src-daemonize-0_0_2.owner = "OpenSystemsLab";
   inputs.src-daemonize-0_0_2.repo  = "daemonize.nim";
-  inputs.src-daemonize-0_0_2.dir   = "";
   inputs.src-daemonize-0_0_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
